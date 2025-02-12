@@ -91,7 +91,4 @@ This analysis provides valuable insights into e-commerce performance, highlighti
 
 ## **References**
 - Data provided by **InternPulse**.
-- Market research reports.
-- Customer feedback and survey data.
-- Internal e-commerce performance insights.
 
