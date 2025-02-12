@@ -1,176 +1,97 @@
-# E-commerce-Performance-Analysis
+# **E-Commerce Performance Analysis Documentation**
 
-Description:
+## **Title**
+**E-Commerce Performance Analysis**
+
+## **Description**
 This analysis aims to address potential challenges and opportunities within the e-commerce business. By analyzing historical data and identifying key trends and patterns, this project will provide valuable insights to guide strategic decision-making and drive continuous improvement within the e-commerce business.
 
-Objective:
+## **Objective**
 To gain a comprehensive understanding of the e-commerce business's current performance and identify key areas for improvement in sales, customer retention, and operational efficiency.
 
-Goal:
+## **Goal**
 To drive sustainable business growth and enhance overall profitability by leveraging data-driven insights.
 
-Data Cleaning Summary: Microsoft Excel
-
-•	Blank Cells: Checked for blank cells using the COUNTBLANK function. No blank cells were found.
-
-•	Errors: Checked for errors using the ISERROR function. No errors were found.
-
-Data Corrections: 
-
-Spelling Errors: 
-
-Corrected 20 instances of "furnitures" to "furniture."
-
-Corrected 13 instances of "tech" to "technology."
-
-Corrected 27 instances of "late" to "late delivery."
-
-Corrected 23 instances of "home" to "home office."
-
-Power BI 
-
-Sales Trend Analysis
-
-Visualization: Line Chart (Order Date vs. Sum of Sales per Order)
-
-Findings: 
-
-Upward sales trend observed over the years.
-
-Significant sales growth after 2018.
-
-Slight sales decline after 2021.
-
-
-Category Revenue Performance
-
-Revenue Calculation: Created a calculated column using the format "Revenue" = (Sales per order * Order Quantity - Order Item Discount) 
-
-Top Revenue Categories: 
-
-Office Supplies: 28.91M (59% contribution)
-
-Furniture: 11.47M (23% contribution)
-
-Technology: 8.79M (18% contribution)
-
-Visualization: Card visuals for revenue per category, and a slicer to filter by category to show each of the category revenue contribution.
-
-Regional Sales Performance
-
-Visualization: Clustered Bar Chart (Customer Region vs. Sum of Sales per Order)
-
-Findings: 
-
-West: Highest sales (8.1M)
-
-East: Second highest sales (7.2M)
-
-Central: Third highest sales (5.9M)
-
-South: Lowest sales (4.1M)
-
-Factors: Sales differences primarily attributed to varying customer bases in each region, particularly the number of retained customers.
-
-West: 39.43k customers, 42% retention
-
-East: 35.06k customers, 39% retention
-
-Central: 28.54k customers, 34% retention
-
-South: 20.03k customers, 28% retention
-
-Delivery Status Impact
-
-Visualization: Stacked Bar Chart (Delivery Status vs. Sum of Sales per Order)
-
-Findings: 
-
-Late Delivery: Highest impact on sales (13M)
-
-Advanced Shipping: 6M
-
-On-Time Shipping: 5M
-
-Shipping Cancelled: 1M
-
-Customer Segmentation
-
-Consumer: 63.80k
-
-Corporate: 37.30k
-
-Home Office: 21.96k
-
-
-Customer Retention: 
-
-Overall Retention Rate: 71%
-
-Consumer: 55%
-
-Corporate: 40%
-
-Home Office: 29%
-
-Visualization: Card visual for customer segment distribution.
-Shipping Type Analysis
-
-Visualization: Gauge visuals for each shipping type (Standard, Second Class, First Class, Same Day) to visualize their impact on delivery performance.
-
-Findings: 
-
-Standard Class: Highest impact (71.84k)
-
-Second Class: 24.46k
-
-First Class: 20.43k
-
-Same Day: 6335
-
-Slicers:
-
-Category Name: Filter visualizations by product category.
-
-Customer Region: Filter visualizations by customer region.
-
-Customer Segment: Filter visualizations by customer segment
-
-
-Key Observations
-
-•	Sales have shown significant growth since 2018, with a slight decline observed after 2021.
-
-•	Office Supplies is the top-performing category, contributing significantly to overall revenue.
-
-•	Sales performance varies significantly across regions, with the West region leading the way.
-
-•	While "Late Delivery" appears to have the highest sales volume, it likely indicates operational inefficiencies; it did not have the highest customer retention rate, this indicates customer dissatisfaction, which can negatively impact customer loyalty and brand reputation in the long term.
-
-•	The Consumer segment demonstrates the largest customer base and retention rate.  
-
-•	Standard Class is the most popular shipping type.
-
-
-
-Solutions
-
-•	Capitalize on the success of Office Supplies. Explore opportunities for product expansion, cross-selling, and upselling within this category.
-
-•	Implement strategies to replicate successful strategies from the West region in other regions.
-
-•	Focus on retaining and growing the Consumer segment. Implement targeted marketing campaigns, loyalty programs, and personalized offers to retain existing customers and attract new customers.
-
-•	Monitor customer feedback and satisfaction levels related to shipping options to identify areas for improvement.
-
-
-Key Recommendations
-
-•	Investigate the factors contributing to the post-2021 decline.
-
-•	Implement robust tracking and monitoring systems to identify and address the root causes of late deliveries proactively.
-
-•	Prioritize customer satisfaction by addressing customer concerns and improving the overall customer experience
-
-
+## **Data Source**
+- The dataset was obtained from **InternPulse** as part of an internship project.
+
+## **Methodology**
+### **Data Collection**
+- Historical sales, customer, and operational data were sourced from **InternPulse**.
+- Data points included order dates, product categories, customer segmentation, regional sales, shipping types, and delivery statuses.
+
+### **Data Preprocessing**
+- Data cleaning involved correcting spelling errors, handling missing values, and ensuring consistency.
+- Data was formatted to facilitate visualization and analysis in Power BI.
+
+### **Analysis Techniques**
+- **Sales Trend Analysis:** Used line charts to visualize order dates vs. sum of sales per order.
+- **Revenue Calculation:** Created calculated columns to determine revenue contributions per category.
+- **Regional Sales Performance:** Clustered bar charts were used to compare sales performance across regions.
+- **Delivery Status Impact:** Stacked bar charts analyzed the effect of delivery status on sales.
+- **Customer Segmentation:** Card visuals and retention rate calculations were performed.
+- **Shipping Type Analysis:** Gauge visuals measured the impact of different shipping types.
+
+## **Findings and Insights**
+### **Sales Trend Analysis**
+- Upward sales trend observed over the years.
+- Significant sales growth after 2018.
+- Slight sales decline after 2021.
+
+### **Category Revenue Performance**
+- **Office Supplies:** $28.91M (59% contribution)
+- **Furniture:** $11.47M (23% contribution)
+- **Technology:** $8.79M (18% contribution)
+
+### **Regional Sales Performance**
+- **West:** Highest sales ($8.1M) – 39.43k customers, 42% retention.
+- **East:** Second highest sales ($7.2M) – 35.06k customers, 39% retention.
+- **Central:** Third highest sales ($5.9M) – 28.54k customers, 34% retention.
+- **South:** Lowest sales ($4.1M) – 20.03k customers, 28% retention.
+
+### **Delivery Status Impact**
+- **Late Delivery:** Highest impact on sales ($13M).
+- **Advanced Shipping:** $6M.
+- **On-Time Shipping:** $5M.
+- **Shipping Cancelled:** $1M.
+
+### **Customer Segmentation**
+- **Consumer:** 63.80k customers, 55% retention.
+- **Corporate:** 37.30k customers, 40% retention.
+- **Home Office:** 21.96k customers, 29% retention.
+
+### **Shipping Type Analysis**
+- **Standard Class:** Highest impact (71.84k orders).
+- **Second Class:** 24.46k orders.
+- **First Class:** 20.43k orders.
+- **Same Day:** 6.33k orders.
+
+## **Key Observations**
+- Sales have shown significant growth since 2018, with a slight decline observed after 2021.
+- Office Supplies is the top-performing category, contributing significantly to overall revenue.
+- Sales performance varies significantly across regions, with the West region leading.
+- "Late Delivery" has the highest sales volume but indicates operational inefficiencies, impacting customer satisfaction and retention.
+- The Consumer segment demonstrates the largest customer base and retention rate.
+- Standard Class is the most popular shipping type.
+
+## **Solutions and Recommendations**
+### **Solutions**
+1. **Capitalize on Office Supplies’ Success:** Explore product expansion, cross-selling, and upselling.
+2. **Replicate West Region’s Success:** Implement winning strategies in other regions.
+3. **Improve Customer Retention:** Implement targeted marketing campaigns, loyalty programs, and personalized offers.
+4. **Enhance Delivery Performance:** Monitor customer feedback and improve shipping options.
+
+### **Key Recommendations**
+1. **Investigate Post-2021 Decline:** Analyze trends to identify contributing factors.
+2. **Improve Late Deliveries:** Implement robust tracking systems and proactive solutions.
+3. **Enhance Customer Satisfaction:** Address customer concerns to improve loyalty and brand reputation.
+
+## **Conclusion**
+This analysis provides valuable insights into e-commerce performance, highlighting sales trends, customer behavior, and operational challenges. By addressing inefficiencies and leveraging data-driven strategies, the business can drive sustainable growth and improve profitability.
+
+## **References**
+- Data provided by **InternPulse**.
+- Market research reports.
+- Customer feedback and survey data.
+- Internal e-commerce performance insights.
 
